@@ -1,8 +1,11 @@
+import CountdownLightSwitch from "./CountdownLightSwitch"
+import './CountdownLightSwitch.css';
+
 function App() {
 
   return (
     <>
-      <div><h1>Hello, World</h1></div>
+      <CountdownLightSwitch/>
     </>
   )
 }
